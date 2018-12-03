@@ -12,3 +12,4 @@ action.
      I tried cross entropy method with both original reward and modified reward. I tried with one hidden layer and two hidden layer and   with different parameters, but looks like the reward doesn't change.
 
 # 4 - Overview of algorithms studied in class
+     You can find the brief details in 04_algorithms_methods_overview.md file
