@@ -1,7 +1,7 @@
 # HW-4-Algorithms-for-OpenAI-Gym
 
 # 1 - Implemented a explicit policy for mountain car env
-     First I move the car to the left and then check if the velocity is between 0.012 and 0.015. If velocity is between this range, I move  the car to the right. I tried with both original reward and modified reward and the plots can be found in plot folder. Looks like,        with modified reward, the car reaches the flag for more episodes. Looking at the enviroement, the reason behind this policy is basic physics. If we move the car to the left and then release it from some point, there is an ample chance it will touch the flag.
+     First I move the car to the left and then check if the velocity is between 0.012 and 0.015. If velocity is between this range, I move  the car to the right. I tried with both original reward and modified reward and the plots can be found in plot folder. Looks like, with   modified reward, the car reaches the flag for more episodes. Looking at the enviroement, the reason behind this policy is basic physics. If we move the car to the left and then release it from some point, there is an ample chance it will touch the flag.
     
 
 # 2 - Implemented a explicity policy of cart-pole env
