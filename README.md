@@ -5,7 +5,7 @@
     
 
 # 2 - Implemented a explicity policy of cart-pole env
-     For this environemt, I check the angle of the pole. If it is greater than 0, I move it to the right, otherwise I assign it the left action.
+     For this environemt, I check the angle of the pole. If it is greater than 0, I move it to the right, otherwise I assign it the left action. To solve the problem, we should get the reward of 195 averaged over the episodes. Here the average reward is 43 and the maximum reward is 72. The idea behind the policy is to stable the cart-pole. With more sophisticated approach, one would get solve the problem by getting an average reward of 195 over number of episodes.
 
 # 3 - Implemented a cross entropy method for mountain car env.
      I tried cross entropy method with both original reward and modified reward. I tried with one hidden layer and two hidden layer and   with different parameters, but looks like the reward doesn't change.
